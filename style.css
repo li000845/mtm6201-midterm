@@ -1,8 +1,43 @@
-body {
-  font-family: Arial, sans-serif;
+body, html {
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
   background: #f2f2f2;
+}
+.app-container {
+  text-align: center;
+  background-color: #fff;
+}
+.app-header h1 {
+  font-size: 24px;
+  color: #000;
+}
+.app-header p {
+  font-size: 18px;
+  color: #666;
+}
+.image-container img {
+  width: 100%;
+  display: block; /* Remove any extra space below the image */
+}
+.buttons-container {
+  margin: 20px 0;
+}
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.get-started {
+  background-color: #007bff;
+  color: #fff;
+}
+.log-in {
+  background-color: #343a40;
+  color: #fff;
 }
 .login-container {
   max-width: 400px;
@@ -45,4 +80,16 @@ input[type=email], input[type=password] {
 .forgot-password {
   text-align: right;
   margin-bottom: 20px;
+}
+
+/* Add responsive design */
+@media (max-width: 600px) {
+  .buttons-container {
+      flex-direction: column;
+  }
+
+  .btn {
+      width: 90%;
+      margin: 10px auto; /* Center buttons on mobile */
+  }
 }
