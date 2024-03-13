@@ -89,7 +89,6 @@ body, html {
 }
 
 .app-container {
-  max-width: 370px;
   margin: auto;
   background: #fff;
   font-size: 16px;
@@ -184,11 +183,11 @@ body, html {
 }
 
 .amount-raised {
-  color: #28a745;
+  color: #3d3d3d;
 }
 
 .amount-goal {
-  color: #dc3545;
+  color: #007bff;
 }
 
 
