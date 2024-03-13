@@ -83,13 +83,16 @@ input[type=email], input[type=password] {
 }
 
 /* Add responsive design */
-@media (max-width: 600px) {
+@media (max-width: 900px) {
+  .image-container img {
+    content: url('images/vertical.png'); 
+  }
   .buttons-container {
       flex-direction: column;
   }
 
   .btn {
       width: 90%;
-      margin: 10px auto; /* Center buttons on mobile */
+      margin: 10px auto;
   }
 }
