@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charity App</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="welcome-banner">
-    <a href="#" class="">&times;</a>
-    <h1>Welcome,</h1>
-    <p>Let's get started by adding more information to your profile.</p>
-    <a href="#" class="go-to-profile-btn">GO TO PROFILE</a>
-    <a href="#" class="dissmiss-btn">DISSMISS</a>
-  </div>
 
-  <h2 class="section-title">Trending Charities</h2>
-
-  <div class="charity-card">
-    <img src="images/hands.png" alt="People joining hands">
-    <h3>St. Loeuis Welfare Org.</h3>
-    <div class="progress-bar">
-      <div class="progress"></div>
+<div class="app-container">
+    <div class="header">
+        <a href="#" class="back-arrow">&larr;</a>
+        <div class="welcome-message">
+            <h1>Welcome,</h1>
+            <p>Let's get started by adding more information to your profile.</p>
+            <button class="profile-button">GO TO PROFILE</button>
+            <button class="dismiss-button">DISMISS</button>
+        </div>
     </div>
-    <div class="total-raised">
-      <span class="amount-raised">$10,000</span>
-      <span class="target-amount">$12,500</span>
+    <div class="trending-charities">
+        <h2>Trending Charities</h2>
+        <div class="charity">
+            <img src="hands.png" alt="Group of people joining hands">
+            <div class="charity-info">
+                <h3>St. Loeuis Welfare Org.</h3>
+                <div class="progress-bar"></div>
+                <div class="funding">
+                    <span class="amount-raised">$10,000</span>
+                    <span class="amount-goal">$12,500</span>
+                </div>
+            </div>
+        </div>
+        <div class="charity">
+            <img src="people.png" alt="People receiving aid">
+            <div class="charity-info">
+                <h3>St. Loeuis Welfare Org.</h3>
+                <div class="progress-bar"></div>
+                <div class="funding">
+                    <span class="amount-raised">$10,000</span>
+                    <span class="amount-goal">$12,500</span>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-
-  <div class="charity-card">
-    <img src="images/people.png" alt="People receiving aid">
-    <h3>St. Loeuis Welfare Org.</h3>
-    <div class="progress-bar">
-      <div class="progress"></div>
-    </div>
-    <div class="total-raised">
-      <span class="amount-raised">$10,000</span>
-      <span class="target-amount">$12,500</span>
-    </div>
-  </div>
+</div>
 
 </body>
 </html>

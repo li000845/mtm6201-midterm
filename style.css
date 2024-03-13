@@ -82,65 +82,115 @@ input[type=email], input[type=password] {
   margin-bottom: 20px;
 }
 
-.welcome-banner {
-  background: #0000FF;
-  color: white;
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  max-width: 370px;
+  margin: auto;
+  background: #fff;
+  font-size: 16px;
+}
+
+.header {
+  background: #f2f2f7;
   padding: 20px;
+  text-align: center;
   position: relative;
 }
-.dismiss-button {
+
+.back-arrow {
   position: absolute;
-  right: 10px;
-  top: 10px;
-  background: none;
-  border: none;
+  left: 20px;
+  top: 20px;
   font-size: 24px;
-  color: white;
-}
-.go-to-profile-btn {
-  background: #FFD700;
-  color: black;
-  padding: 10px 20px;
   text-decoration: none;
+  color: #000;
+}
+
+.welcome-message h1 {
+  margin: 0;
+}
+
+.welcome-message p {
+  margin: 10px 0 20px;
+}
+
+.profile-button,
+.dismiss-button {
   display: inline-block;
-  margin-top: 10px;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  color: #fff;
+  background-color: #007bff;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
 }
-.section-title {
-  margin-left: 20px;
+
+.dismiss-button {
+  background-color: #6c757d;
 }
-.charity-card {
-  margin: 20px;
-  border: 1px solid #ccc;
-  padding: 10px;
+
+.trending-charities h2 {
+  padding: 10px 20px;
+  margin: 0;
+  background: #e7e7eb;
+  font-size: 18px;
 }
-.charity-card img {
+
+.charity {
+  border-bottom: 1px solid #ccc;
+}
+
+.charity img {
   width: 100%;
   height: auto;
 }
+
+.charity-info {
+  padding: 10px 20px;
+}
+
+.charity-info h3 {
+  margin: 0 0 5px;
+}
+
 .progress-bar {
-  height: 20px;
-  background: #e0e0e0;
-  border-radius: 10px;
-  overflow: hidden;
+  height: 10px;
+  background: #e7e7eb;
   margin: 10px 0;
+  border-radius: 5px;
 }
-.progress {
-  width: 80%;
-  background: #32CD32;
-  height: 100%;
-  border-radius: 10px;
+
+.progress-bar::after {
+  content: '';
+  display: block;
+  height: 10px;
+  width: 80%; /* This width should be dynamic based on the amount raised */
+  background: #007bff;
+  border-radius: 5px;
 }
-.total-raised {
+
+.funding {
   display: flex;
   justify-content: space-between;
+  font-size: 14px;
 }
+
 .amount-raised {
-  font-weight: bold;
+  color: #28a745;
 }
-.target-amount {
-  font-weight: bold;
-  color: red;
+
+.amount-goal {
+  color: #dc3545;
 }
+
 
 /* Add responsive design */
 @media (max-width: 900px) {
