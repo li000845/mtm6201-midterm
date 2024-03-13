@@ -93,14 +93,12 @@ body, html {
   background: #fff;
   font-size: 16px;
 }
-
 .header {
   background: #f2f2f7;
   padding: 20px;
   text-align: center;
   position: relative;
 }
-
 .back-arrow {
   position: absolute;
   left: 20px;
@@ -109,15 +107,12 @@ body, html {
   text-decoration: none;
   color: #000;
 }
-
 .welcome-message h1 {
-  margin: 0;
+  margin-top: 30px;
 }
-
 .welcome-message p {
   margin: 10px 0 20px;
 }
-
 .profile-button,
 .dismiss-button {
   display: inline-block;
@@ -131,11 +126,9 @@ body, html {
   border-radius: 5px;
   cursor: pointer;
 }
-
 .dismiss-button {
   background-color: #6c757d;
 }
-
 .trending-charities h2 {
   padding: 10px 20px;
   margin: 0;
@@ -146,27 +139,22 @@ body, html {
 .charity {
   border-bottom: 1px solid #ccc;
 }
-
 .charity img {
   width: 100%;
   height: auto;
 }
-
 .charity-info {
   padding: 10px 20px;
 }
-
 .charity-info h3 {
   margin: 0 0 5px;
 }
-
 .progress-bar {
   height: 10px;
   background: #e7e7eb;
   margin: 10px 0;
   border-radius: 5px;
 }
-
 .progress-bar::after {
   content: '';
   display: block;
@@ -175,17 +163,14 @@ body, html {
   background: #007bff;
   border-radius: 5px;
 }
-
 .funding {
   display: flex;
   justify-content: space-between;
   font-size: 14px;
 }
-
 .amount-raised {
   color: #3d3d3d;
 }
-
 .amount-goal {
   color: #007bff;
 }
