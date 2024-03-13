@@ -18,7 +18,7 @@ body, html {
 }
 .image-container img {
   width: 100%;
-  display: block; /* Remove any extra space below the image */
+  display: block; /* Remove extra space below the image */
 }
 .buttons-container {
   margin: 20px 0;
@@ -80,6 +80,66 @@ input[type=email], input[type=password] {
 .forgot-password {
   text-align: right;
   margin-bottom: 20px;
+}
+
+.welcome-banner {
+  background: #0000FF;
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+.dismiss-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+}
+.go-to-profile-btn {
+  background: #FFD700;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+.section-title {
+  margin-left: 20px;
+}
+.charity-card {
+  margin: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.charity-card img {
+  width: 100%;
+  height: auto;
+}
+.progress-bar {
+  height: 20px;
+  background: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+.progress {
+  width: 80%;
+  background: #32CD32;
+  height: 100%;
+  border-radius: 10px;
+}
+.total-raised {
+  display: flex;
+  justify-content: space-between;
+}
+.amount-raised {
+  font-weight: bold;
+}
+.target-amount {
+  font-weight: bold;
+  color: red;
 }
 
 /* Add responsive design */
