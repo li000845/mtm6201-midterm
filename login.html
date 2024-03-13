@@ -14,38 +14,27 @@
   </div>
 
   <!-- Login Title -->
-  <div class="header">
-   <h1>Login</h1>
-   <p>Get started with your journey.</p>
-  </div>
+  <div class="login-container">
+    <h2>Login</h2>
+    <p>Get started with your journey.</p>
 
   <!-- Login Form -->
-  <form>
-    <div class="Username">
-      <label>Username or Email</label>
-      <input id="username" type="text" placeholder="contact@elitepixels.net">
-    </div>
-
-    <div class="password">
-      <label>Password</label>
-      <input id="password" type="password" placeholder="********">
-    </div>
+  <form class="login-form">
+    <input type="email" placeholder="Username or Email" required="">
+    <input type="password" placeholder="Password" required="">
 
   <!-- Password options -->
-    <div class="remember">
-      <label>
-        <input type="checkbox" class=checked>
-          <span>Remember Password</span>
-      </label>  
-      <a href="#" class="button">Forgot Password</a>
-    </div>
+  <div class="checkbox-container">
+    <input type="checkbox" id="remember-me">
+    <label for="remember-me">Remember Password</label>
+  </div>
+  <div class="forgot-password">
+    <a href="#">Forgot Password</a>
+  </div>
   
   <!-- Submit Button -->
-    <div class="submit">
-      <button>
-        CONTINUE TO LOGIN
-      </button>
-    </div>
-  </form>
+     <button type="submit" class="btn">CONTINUE TO LOGIN</button>
+    </form>
+  </div>
 </body>
 </html>
