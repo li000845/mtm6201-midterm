@@ -7,11 +7,10 @@ body, html {
 .container {
   text-align: center;/* Centers the text */
   background-color: #f2f2f7;
-  margin: auto;
-  font-size: 16px;
+  margin-bottom: 30px;
 }
 .title {
-   margin-bottom: 0.5em; /* Reduces space below the title */
+   margin-bottom: 0.1em; /* Reduces space below the title */
    font-size: 80px;
    color: #007bff;
   }
@@ -20,19 +19,6 @@ body, html {
    font-size: 30px;
    color: #666;
   }
-.header {
-  background: #f2f2f7;
-  text-align: center;
-  position: relative;
-}
-.header h1 {
-  font-size: 80px;
-  color: #007bff;
-}
-.header p {
-  font-size: 30px;
-  color: #666;
-}
 .image-container img {
   width: 100%;
   display: block; /* Remove extra space below the image */
