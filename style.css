@@ -165,9 +165,8 @@ input[type=email], input[type=password] {
   .buttons-container {
       flex-direction: column;
   }
-
   .btn {
-      width: 90%;
+      width:80%;
       margin: 10px auto;
   }
 }
