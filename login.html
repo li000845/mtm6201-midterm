@@ -3,27 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Acts.Of.Life</title>
+  <title>Login</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>  
-  <!-- Title and subtitle -->
-  <div class="container">
-    <header>
-      <h1 class="title">Acts.Of.Life</h1>
-      <p class="tagline">Sharing made social.</p>
-    </header>
+<body>
+  <!-- Back to previous page -->
+  <a href="index.html" class="back-arrow">&larr;</a>
 
-  <!-- Main image -->
-    <div class="image-container">
-      <img src="images/full.png" alt="Children showing peace signs" />
-    </div>
+  <!-- Login Title -->
+  <div class="login-container">
+    <h2>Login</h2>
+    <p>Get started with your journey.</p>
 
-  <!-- Buttons for actions -->
-  <div class="buttons-container">
-    <a href="home.html" class="btn get-started">GET STARTED</a>
-    <a href="login.html" class="btn log-in">LOG IN</a>
+  <!-- Login Form -->
+  <form class="login-form">
+    <input type="email" placeholder="Username or Email" required="">
+    <input type="password" placeholder="Password" required="">
+
+  <!-- Password options -->
+  <div class="checkbox-container">
+    <input type="checkbox" id="remember-me">
+    <label for="remember-me">Remember Password</label>
   </div>
-  </div>   
+  <div class="forgot-password">
+    <a href="#">Forgot Password</a>
+  </div>
+  
+  <!-- Submit Button -->
+     <button type="submit" class="btn">CONTINUE TO LOGIN</button>
+    </form>
+  </div>
 </body>
 </html>
