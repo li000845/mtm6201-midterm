@@ -31,14 +31,6 @@ body, html {
 .buttons-container {
   margin: 20px 0;
 }
-.btn {
-  padding: 10px 20px;
-  margin: 5px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 18px;
-}
 .get-started {
   background-color: #007bff;
   color: #fff;
@@ -67,15 +59,22 @@ input[type=email], input[type=password] {
   font-size: 16px;
 }
 .btn {
+  display: inline-block;
+  padding: 20px 30px; /* Adjust button size */
+  margin: 20px;
   background-color: #007bff;
-  color: white;
-  padding: 15px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  color: #ffffff; /* Text color */
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none; /* Remove underline from links */
+  font-size: 16px;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
-.btn:hover {
-  background-color: #0056b3;
+
+.btn:hover, .btn:focus {
+  background-color: #0056b3; /* Darker shade for hover state */
+  color: #ffffff;
+  text-decoration: none; /* Ensure no underline appears on hover */
 }
 .checkbox-container {
   margin-bottom: 20px;
@@ -114,7 +113,7 @@ input[type=email], input[type=password] {
   background-color: #007bff;
   text-transform: uppercase;
   font-size: 14px;
-  border-radius: 5px;
+  border-radius: 10px;/* Rounded corners */
   cursor: pointer;
 }
 .dismiss-button {
@@ -150,7 +149,7 @@ input[type=email], input[type=password] {
   content: '';
   display: block;
   height: 10px;
-  width: 80%; /* This width should be dynamic based on the amount raised */
+  width: 80%; 
   background: #007bff;
   border-radius: 5px;
 }
