@@ -5,23 +5,32 @@ body, html {
   background: #f2f2f2;
 }
 .container {
-  text-align: center;
+  text-align: center;/* Centers the text */
   background-color: #f2f2f7;
   margin: auto;
   font-size: 16px;
 }
+.title {
+   margin-bottom: 0.5em; /* Reduces space below the title */
+   font-size: 80px;
+   color: #007bff;
+  }
+.tagline {
+   margin-top: 0; /* Removes space above the tagline */
+   font-size: 30px;
+   color: #666;
+  }
 .header {
   background: #f2f2f7;
-  padding: 20px;
   text-align: center;
   position: relative;
 }
 .header h1 {
-  font-size: 24px;
-  color: #000;
+  font-size: 80px;
+  color: #007bff;
 }
 .header p {
-  font-size: 18px;
+  font-size: 30px;
   color: #666;
 }
 .image-container img {
@@ -31,12 +40,12 @@ body, html {
 .buttons-container {
   margin: 20px 0;
 }
-.get-started {
+.btn.get-started {
   background-color: #007bff;
   color: #fff;
 }
-.log-in {
-  background-color: #343a40;
+.btn.log-in {
+  background-color: #007bff;
   color: #fff;
 }
 .login-container {
@@ -44,8 +53,7 @@ body, html {
   margin: 50px auto;
   background: #ffffff;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
 }
 .login-form {
   display: flex;
@@ -70,7 +78,6 @@ input[type=email], input[type=password] {
   font-size: 16px;
   transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
-
 .btn:hover, .btn:focus {
   background-color: #0056b3; /* Darker shade for hover state */
   color: #ffffff;
@@ -88,7 +95,6 @@ input[type=email], input[type=password] {
   text-align: right;
   margin-bottom: 20px;
 }
-
 .back-arrow {
   position: absolute;
   left: 20px;
