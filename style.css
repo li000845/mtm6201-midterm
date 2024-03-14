@@ -125,6 +125,7 @@ input[type=email], input[type=password] {
 }
 .charity-info {
   padding: 10px 20px;
+  margin-bottom: 50px;
 }
 .charity-info h3 {
   margin: 0 0 5px;
